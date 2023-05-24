@@ -1,0 +1,164 @@
+html,body,h1,h2,h3,h4,ul,ol,li,p,a {
+	padding: 0;
+	border: 0;
+	margin: 0;
+}
+
+body{
+	background-color: black;
+	display: flex;
+	align-content: center;
+}
+
+.fullpage{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.section1 {
+	background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url(images/green-vegetables-on-brown-wooden-chopping-board-3952047.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	height: 1000px;
+    width: 100%
+}
+
+
+
+.nav {
+	top: 0;
+    height: 40;
+    font-size: 22px;
+    clear: both;
+    width: 80%;
+	position: fixed;
+	border-bottom: 2px White solid;
+	padding: 5px;
+	margin: 5px;
+	color: white;
+	opacity: 1;
+  }
+
+.nav h2{
+	color: white;
+    float: left;
+}
+
+.nav a{
+	color: white;
+	text-decoration: none;
+    float: right;
+    padding: 5px;
+}
+
+.freshness{
+	display: flex;
+	color: white;
+	justify-content: center;
+    align-items: center;
+    flex-flow: column;
+	padding: 20px;
+	width: 700px;
+    
+}
+
+.freshness h1{
+    border-bottom: 2px solid white;
+    margin:;
+    padding: 5px 72px;
+    font-size: 72px;
+    
+}
+
+.freshness h2{
+    padding: 10px;
+    font-size: 36px;
+}
+
+.bread{
+    display: flex;
+    color: white;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: space-between;
+}
+
+.bread img{
+    display: flex;
+    height: 400px;
+    width: 33%;
+    align-self: ;
+    object-fit: cover;
+}
+
+
+.breadText{
+    padding: 30px;
+    font-size: 18px;
+}
+
+.breadText h2{
+    font-size: 50px;
+}
+.pineapple{
+    display: flex;
+    color: white;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: space-between;
+    background-color: #333333;
+}
+
+.pineapple img{
+    display: flex;
+    height: 300px;
+    width: 33%;
+    align-self: ;
+    object-fit: cover;
+}
+
+
+.pineappleText{
+    padding: 30px;
+    font-size: 18px;
+    width:66%;
+}
+
+.pineappleText h2{
+    font-size: 50px;
+}
+
+.pasta{
+    display: flex;
+    color: white;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: space-between;
+    background-color: #414141;
+}
+
+.pasta img{
+    display: flex;
+    height: 300px;
+    width: 33%;
+    align-self: ;
+    object-fit: cover;
+}
+
+
+.pastaText{
+    padding: 30px;
+    font-size: 18px;
+}
+
+.pastaText h2{
+    font-size: 50px;
+}
